@@ -5,7 +5,7 @@ A command-line wrapper for generating PDF prints and PNG screenshots with [Puppe
 ## Install
 
 ```bash
-npm install -g puppeteer-cli
+npm install -g @thoughtsunificator/puppeteer-cli
 ```
 
 ## Usage
@@ -64,11 +64,3 @@ puppeteer screenshot mypage.html myscreenshot.png # local file
 puppeteer screenshot https://jarv.us myscreenshot.png # url
 puppeteer screenshot https://jarv.us myscreenshot.png --viewport 300x200
 ```
-
-## Roadmap
-
-- [X] Add `print` command
-- [X] Add support for `http://` inputs in addition to local file paths
-- [X] Add `screenshot` command
-- [ ] Add compatibility with `wkhtmltopdf` parameters to provide a drop-in replacement?
-- [ ] Detect `.json` or `.js` files as input to `screenshot` command instead of a single HTML file or URL, specifying a set of screenshots to capture in series
