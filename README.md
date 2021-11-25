@@ -33,6 +33,7 @@ Options:
   --display-header-footer                             [boolean] [default: false]
   --header-template                                       [string] [default: ""]
   --footer-template                                       [string] [default: ""]
+  --inject-js                                             [string] [default: ""]
 ```
 
 ```bash
